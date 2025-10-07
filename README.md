@@ -4,9 +4,9 @@ CountrySearch — это веб-приложение веб-приложение
 
 Language: Java.
 
-[SRS of program](https://github.com/snrteftelya/CountrySearchLab/blob/main/Requirements/SRS.md)
+[SRS of program](https://github.com/dirtyscream/zhcrpo2-laba/blob/main/Requirements/SRS.md)
 
-[User interface images](https://github.com/snrteftelya/CountrySearchLab/tree/main/Mockups)
+[User interface images](https://github.com/dirtyscream/zhcrpo2-laba/tree/main/Mockups)
 
 [Diagrams]() _not implemented_
 
