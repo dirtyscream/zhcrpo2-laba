@@ -1,6 +1,6 @@
 # Диаграмма классов - Менеджер Проектов
 
-<img src="Images/Class-Diagram-Manager.png" width="60%" />
+<img src="Images/Class-Diagram.png" width="60%" />
 
 ## Глоссарий
 
