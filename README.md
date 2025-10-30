@@ -6,7 +6,7 @@ Language: Java.
 
 [SRS of program](https://github.com/dirtyscream/zhcrpo2-laba/blob/main/Requirements/SRS.md)
 
-[User interface images](https://github.com/dirtyscream/zhcrpo2-laba/tree/main/Mockups)
+[User interface images](https://github.com/di rtyscream/zhcrpo2-laba/tree/main/Mockups)
 
 [Diagrams]() _not implemented_
 
