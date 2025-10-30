@@ -8,7 +8,7 @@ Language: Java.
 
 [User interface images](https://github.com/dirtyscream/zhcrpo2-laba/tree/main/Mockups)
 
-[Diagrams](https://github.com/dirtyscream/zhcrpo2-laba/tree/main/Diagram) 
+[Diagrams](https://github.com/dirtyscream/zhcrpo2-laba/tree/main/diagram) 
 
 [source code]() _not implemented_
 
