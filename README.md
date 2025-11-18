@@ -10,7 +10,7 @@ Language: Java.
 
 [Diagrams](https://github.com/dirtyscream/zhcrpo2-laba/tree/main/diagram) 
 
-[source code]() _not implemented_
+[source code]() (https://github.com/dirtyscream/taskmanager)
 
-[Test plan]() _not implemented_ <br>
-[Test results]() _not implemented_
+[Test plan]() 
+[Test results]()
