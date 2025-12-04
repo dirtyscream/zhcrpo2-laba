@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #0D121E;
+	color: #f3f4f6;
+}
+.server_name {
+	font-size: 30px;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-size: 20px;
+}
+img	{
+	width: 20px;
+	height: 20px;
+}
+th {
+    padding: 0px 10px 0px 10px;
+    color: #866fc8;
+}
+td {
+	padding: 10px 15px 0px 15px;
+}
+.main_content {
+	margin-top: 30px;
+}
+.main {
+	margin-top: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.upload {
+	display: none;
+	width: 135px;
+}
+.upload::-webkit-file-upload-button {
+	visibility: hidden;
+}
+.upload::before {
+	font-family: 'Josefin Sans', sans-serif;
+	content: 'drop file here'
+}
+#hide {
+	display: none;
+}
+input {
+	font-size: 20px;
+	padding: 5px 0px 5px 7px;
+	border: 1px solid black;
+	border-radius: 500px;
+	margin: 10px 0px 10px 0px;
+}
+.chosen_file {
+	font-size: 20px;
+}
+label {
+	font-size: 20px;
+}
+button {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 5px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 50px;
+}
+.upload_text {
+	font-size: 20px;
+}
+.progress {
+	width: 350px;
+	height: 20px;
+	margin-top: 10px;
+	--bs-progress-bg: #212121;
+	display: none;
+}
+
+.btn-primary {
+    --bs-btn-bg: #a78bfa;
+    --bs-btn-border-color: #a78bfa;
+    --bs-btn-hover-bg: #967de1;
+    --bs-btn-hover-border-color: #967de1;
+    --bs-btn-active-bg: #866fc8;
+    --bs-btn-active-border-color: #866fc8;
+    --bs-btn-disabled-bg: #615191;
+    --bs-btn-disabled-border-color: #615191;
+}
+
+.upload_area {
+	height: 100px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	gap: 10px;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	border: 2px dashed #e8e8e8;
+	background-color: #111828;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.upload_area_text {
+	align-items: center;
+}
+.nav-link {
+	--bs-nav-link-color: #e8e8e8;
+	--bs-nav-link-hover-color: #bababa;
+	--bs-nav-underline-link-active-color: #a78bfa;
+	--bs-nav-link-font-size: 20px;
+}
+
+#drive-tab-pane {
+	display: inline;
+}
+
+#pin-tab-pane {
+	display: none;
+}
+
+.navigation-bar {
+	margin-top: 10px;
+	margin-left: 10%;
+}
+
+.footer .progress {
+    display: flex;
+    height: 10px;
+}
+
+.progress {
+    --bs-progress-bar-bg: #866fc8;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.spinner_upload {
+    display: none;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.spinner_upload span {
+    margin-top: 5px;
+    margin-left: 10px;
+}

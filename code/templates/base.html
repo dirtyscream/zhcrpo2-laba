@@ -1,0 +1,16 @@
+<!DOCTYPE html>{% load static %}
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>GemlDrive</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+	<link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+	<style>@font-face {font-family: 'Josefin Sans';src: url('{% static 'font/static/JosefinSans-Medium.ttf' %}') format('truetype');}</style>
+    {% block head_imports %}{% endblock %}
+</head>
+<body>
+{% block content %}{% endblock %}
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

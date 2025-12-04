@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head_imports %}
+<link rel="stylesheet" href="{% static 'login/style.css' %}" type="text/css">
+{% endblock %}
+
+{% block content %}
+<div class='main'>
+	<div class="login_form">
+		<div id="title">Login</div>
+		<form action="{% url 'drive' %}" method="POST">
+			{% csrf_token %}
+			<label class="text">password:</label><br>
+			<input class="form-control" data-bs-theme="dark" type="password" name="password"><br>
+			<button type="submit">Sign in</button>
+		</form>
+		<div id="error">{{ error }}</div>
+	</div>
+</div>
+{% endblock %}

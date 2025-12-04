@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head_imports %}
+<link rel="stylesheet" href="{% static 'paste/style.css' %}" type="text/css">
+{% endblock %}
+
+{% block content %}
+<div class="main">
+	<form action="" method="POST">
+		{% csrf_token %}
+		<textarea class="form-control" rows="10" name="main_text"></textarea>
+		<button type="submit">Create</button>
+	</form>
+</div>
+
+{% endblock %}
